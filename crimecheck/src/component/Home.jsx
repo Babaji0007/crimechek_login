@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header'
 
 const Home = ({user}) => {
-  console.log(`home m aaya username-${user.username}`)
+
   return (
     
          <div>

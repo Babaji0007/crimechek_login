@@ -47,7 +47,7 @@ const Signup = () => {
   const register   =(e)=>{
     e.preventDefault()
     if(user.password===user.checkpass){
-      axios.post("http://localhost:1211/register",user).then(res=>{
+      axios.post("https://git.heroku.com/crimelord.git/register",user).then(res=>{
         console.log(res.data.user)
         
          alert("register succesfull")
